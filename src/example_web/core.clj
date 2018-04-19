@@ -4,7 +4,7 @@
 (defn make-page [request]
   [:div
    [:h1 "Hello World"]
-   [:p "Generated from Hiccup!"]])
+   [:p {:style "color: red"} "Generated from Hiccup!"]])
 
 (defn handler [request]
   {:status 200
